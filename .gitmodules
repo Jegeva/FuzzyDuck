@@ -1,0 +1,3 @@
+[submodule "PicoEVB"]
+	path = PicoEVB
+	url = https://github.com/RHSResearchLLC/PicoEVB

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "ft2232hq")(type "Legacy")(uri "${KIPRJMOD}/ft2232hq.lib")(options "")(descr ""))
+  (lib (name "m2")(type "Legacy")(uri "${KIPRJMOD}/m2.lib")(options "")(descr ""))
+  (lib (name "Micron-DA-0-0-0")(type "Legacy")(uri "${KIPRJMOD}/Micron-DA-0-0-0.lib")(options "")(descr ""))
+  (lib (name "FD-rescue")(type "Legacy")(uri "${KIPRJMOD}/FD-rescue.lib")(options "")(descr ""))
+  (lib (name "Fuzzy1")(type "KiCad")(uri "${KIPRJMOD}/Fuzzy1.kicad_sym")(options "")(descr ""))
+)

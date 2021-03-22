@@ -1,0 +1,41 @@
+**************** Power Discrete MOSFET Electrical Circuit Model *****************
+** Product Name: BSS138W 
+** N-Channel Logic Level Enhancement Mode FET
+** Package: SOT-523F
+** Model Type: BSIM3V3
+**-------------------------------------------------------------------------------
+.SUBCKT BSS138 D G S    
+*Nom Temp=25 deg C
+Dbody 7 5    DbodyMOD
+Dbreak 5 11  DbreakMOD
+Ebreak 11 7 17 7 50
+Lgate G 9    1.70e-9
+Ldrain D 5   1.44e-9
+Lsource S 7  1.70e-9
+RLgate G 9   17.0
+RLdrain D 5  14.4
+RLsource S 7 17.0
+Rgate 9 6    11
+It 7 17      1
+Rbreak 17 7  RbreakMOD 1
+.MODEL RbreakMOD RES (TC1=8.05e-4 TC2=5.55e-7)
+.MODEL DbodyMOD D (IS=1.05e-9   N=1.5    RS=6.02e-2   TRS1=2.1e-3 TRS2=4e-6 
++ CJO=1.04e-11     M=0.38       VJ=0.47  TT=1.525e-8  XTI=3       EG=1.02)
+.MODEL DbreakMOD D (RS=100e-3 TRS1=1.0e-3 TRS2=1.5e-6)
+Rdrain 5 16 RdrainMOD 1.17
+.MODEL RdrainMOD RES (TC1=1.1e-2 TC2=7.05e-5)
+M_BSIM3 16 6 7 7 Bsim3 W=0.06 L=2.0e-6 NRS=1
+.MODEL Bsim3 NMOS (LEVEL=7 VERSION=3.1 MOBMOD=3 CAPMOD=2 PARAMCHK=1 NQSMOD=0
++ TOX=700e-10    XJ=9.4e-5      NCH=1.0e16
++ U0=700         VSAT=1.0e5     DROUT=1.0
++ DELTA=0.01     PSCBE2=0       RSH=8.04e-4
++ VTH0=1.40      VOFF=-0.1      NFACTOR=1.1
++ LINT=1.58e-7   DLC=1.58e-7    
++ CGSO=5.2e-12   CGSL=0         CGDO=9.2e-11
++ CGDL=5.08e-10  CJ=0           CF=0
++ CKAPPA=0.2     KT1=-0.96      KT2=0
++ UA1=-1e-10     NJ=10 )       
+.ENDS
+**-------------------------------------------------------------------------------
+** Creation: Sep.-10-2012
+** Fairchild Semiconductor

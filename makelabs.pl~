@@ -1,0 +1,20 @@
+#! /usr/bin/perl
+
+
+$template = <<'END_TEMPLATE';
+    Text GLabel 3600 %d 2    50   Input ~ 0
+DDR_COM_DQ%d
+Wire Wire Line
+	3400 %d 3600 %d
+Text GLabel 7850 %d 2    50   Input ~ 0
+DDR_COM_DQ%d
+Wire Wire Line
+	7650 %d 7850 %d
+END_TEMPLATE
+
+$i = 0;
+while($i<64){
+    $y=2500 + 100*$i;
+    print sprintf($template,$y,$i,$y,$y$y,$i,$y,$y);
+    $i++;
+}

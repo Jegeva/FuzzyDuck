@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2303
+F https://www.diodes.com/assets/Datasheets/AP2303.pdf
+$ENDCMP
+#
+$CMP ATX_POWER_24pins
+D Generic connector, double row, 02x12, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP MT25Qxxxxxxx8ESF_SO16
+D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
+K SPI DSPI QSPI NOR 256Mbit 1.8V
+F https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-a/mt25q_qljs_u_256_aba_0.pdf
+$ENDCMP
+#
+$CMP NLSX3018
+D Bidirectional  level-shifting voltage translator, TSSOP-20
+K 8-bit
+F https://www.onsemi.com/pub/Collateral/NLSX3018-D.PDF
+$ENDCMP
+#
+$CMP S25FL256SD
+D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
+K SPI DSPI QSPI NOR 256Mbit 1.8V
+F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
+$ENDCMP
+#
+$CMP SW_SP4T
+D Switch, three position, single pole triple throw, 3 position switch, SP3T
+K switch sp3t ON-ON-ON
+F ~
+$ENDCMP
+#
+$CMP TXS0108EPW
+D Bidirectional  level-shifting voltage translator, TSSOP-20
+K 8-bit
+F www.ti.com/lit/ds/symlink/txs0108e.pdf
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library

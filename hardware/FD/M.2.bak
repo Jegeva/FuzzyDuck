@@ -1,0 +1,112 @@
+EESchema Schematic File Version 4
+LIBS:FD-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L m2:M.2_Socket_M J28
+U 1 1 5F8E876B
+P 4300 3600
+F 0 "J28" H 5344 3646 50  0000 L CNN
+F 1 "M.2_Socket_M" H 5344 3555 50  0000 L CNN
+F 2 "" H 4300 4650 50  0001 C CNN
+F 3 "" H 4300 4650 50  0001 C CNN
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1700 4500 1700
+Wire Wire Line
+	3400 1700 3400 1550
+Connection ~ 3800 1700
+Wire Wire Line
+	3800 1700 3400 1700
+Connection ~ 3900 1700
+Wire Wire Line
+	3900 1700 3800 1700
+Connection ~ 4000 1700
+Wire Wire Line
+	4000 1700 3900 1700
+Connection ~ 4100 1700
+Wire Wire Line
+	4100 1700 4000 1700
+Connection ~ 4200 1700
+Wire Wire Line
+	4200 1700 4100 1700
+Connection ~ 4300 1700
+Wire Wire Line
+	4300 1700 4200 1700
+Connection ~ 4400 1700
+Wire Wire Line
+	4400 1700 4300 1700
+Connection ~ 4500 1700
+Wire Wire Line
+	4500 1700 4400 1700
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 5F8EA747
+P 3400 1350
+F 0 "SW7" V 3354 1448 50  0000 L CNN
+F 1 "SW_SPST" V 3445 1448 50  0000 L CNN
+F 2 "" H 3400 1350 50  0001 C CNN
+F 3 "~" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	0    1    1    0   
+$EndComp
+Text GLabel 3400 1150 1    50   Input ~ 0
++3.3V
+Wire Wire Line
+	3700 5500 3800 5500
+Connection ~ 3800 5500
+Wire Wire Line
+	3800 5500 3900 5500
+Connection ~ 3900 5500
+Wire Wire Line
+	3900 5500 4000 5500
+Connection ~ 4000 5500
+Wire Wire Line
+	4000 5500 4100 5500
+Connection ~ 4100 5500
+Wire Wire Line
+	4100 5500 4200 5500
+Connection ~ 4200 5500
+Wire Wire Line
+	4200 5500 4300 5500
+Connection ~ 4300 5500
+Wire Wire Line
+	4300 5500 4400 5500
+Connection ~ 4400 5500
+Wire Wire Line
+	4400 5500 4500 5500
+Connection ~ 4500 5500
+Wire Wire Line
+	4500 5500 4600 5500
+Connection ~ 4600 5500
+Wire Wire Line
+	4600 5500 4700 5500
+Connection ~ 4700 5500
+Wire Wire Line
+	4700 5500 4800 5500
+Connection ~ 4800 5500
+Wire Wire Line
+	4800 5500 4900 5500
+Connection ~ 4900 5500
+Wire Wire Line
+	4900 5500 5000 5500
+Connection ~ 5000 5500
+Wire Wire Line
+	5000 5500 5200 5500
+Text GLabel 5200 5500 2    50   Input ~ 0
+GND
+$EndSCHEMATC

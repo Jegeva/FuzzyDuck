@@ -1,0 +1,14 @@
+(module "VIA-minbga" (layer F.Cu) (tedit 5F564690)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp eeb02f17-6e98-4469-9dfb-fba592b8ed99)
+  )
+  (fp_text value "VIA-0.2D-0.56-OAR0.13" (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3812fcbf-5ffd-4f1e-8a64-8f53dbfed913)
+  )
+  (pad "1" thru_hole circle (at 0 0 180) (size 0.56 0.56) (drill 0.2) (layers *.Cu) (remove_unused_layers) (keep_end_layers)
+    (solder_mask_margin -0.279) (tstamp a219eda2-d085-4120-a882-3e71cdb16b87))
+  (pad "2" smd circle (at 0 0) (size 0.24 0.24) (layers "B.Cu") (tstamp 7302e7ab-ab62-40e4-a766-faa81b0ffa22))
+)

@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+LIBS:fuzzyduckv1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DIMM-240-DDR3:DIMM-240-DDR3 U1
+U 1 1 5BC1171D
+P 6300 6550
+F 0 "U1" H 2525 4028 50  0000 C CNN
+F 1 "DIMM-240-DDR3" H 2525 3937 50  0000 C CNN
+F 2 "FuzzyDuck:TE-1932000-DIMM-240" H 2550 10850 50  0001 C CNN
+F 3 "" H 2550 10850 50  0001 C CNN
+	1    6300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIMM-240-DDR3:DIMM-240-DDR3 U6
+U 1 1 5BC1E998
+P 10550 6550
+F 0 "U6" H 6775 4028 50  0000 C CNN
+F 1 "DIMM-240-DDR3" H 6775 3937 50  0000 C CNN
+F 2 "FuzzyDuck:TE-1932000-DIMM-240" H 6800 10850 50  0001 C CNN
+F 3 "" H 6800 10850 50  0001 C CNN
+	1    10550 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 1650 1    50   Input ~ 0
+GND
+Text GLabel 2200 1650 1    50   Input ~ 0
+GND
+Text GLabel 6450 1650 1    50   Input ~ 0
+GND
+Text GLabel 6900 1650 1    50   Input ~ 0
+GND
+Wire Wire Line
+	6900 1650 7000 1650
+$Comp
+L Device:R R17
+U 1 1 5BC1EC6C
+P 7100 1450
+F 0 "R17" H 7170 1496 50  0000 L CNN
+F 1 "10k" H 7170 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 1450 50  0001 C CNN
+F 3 "~" H 7100 1450 50  0001 C CNN
+	1    7100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1600 7100 1650
+Text GLabel 7100 1300 1    50   Input ~ 0
+DDR_VDD
+Text GLabel 6350 1650 1    50   Input ~ 0
+DDR_VDD
+Text GLabel 6250 1650 1    50   Input ~ 0
+DDR_VDD
+Text GLabel 2000 1650 1    50   Input ~ 0
+DDR_VDD
+Text GLabel 2100 1650 1    50   Input ~ 0
+DDR_VDD
+Wire Wire Line
+	2650 1650 2750 1650
+Connection ~ 2750 1650
+Wire Wire Line
+	2750 1650 2850 1650
+Text GLabel 3600 2500 2    50   Input ~ 0
+DDR_COM_DQ0
+Wire Wire Line
+	3400 2500 3600 2500
+Text GLabel 3600 2600 2    50   Input ~ 0
+DDR_COM_DQ1
+Wire Wire Line
+	3400 2600 3600 2600
+Text GLabel 7850 2500 2    50   Input ~ 0
+DDR_COM_DQ0
+Wire Wire Line
+	7650 2500 7850 2500
+Text GLabel 7850 2600 2    50   Input ~ 0
+DDR_COM_DQ1
+Wire Wire Line
+	7650 2600 7850 2600
+$EndSCHEMATC

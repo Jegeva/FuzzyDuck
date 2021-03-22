@@ -1,0 +1,1173 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Micron-DA-0-0-0:MT41K512M8DA-107P U17
+U 1 1 615870BC
+P 2650 2300
+F 0 "U17" H 3300 2565 50  0000 C CNN
+F 1 "MT41K512M8DA-107P" H 3300 2474 50  0000 C CNN
+F 2 "FuzzyDuck:Micron-DA-0-0-0" H 2650 2700 50  0001 L CNN
+F 3 "" H 2650 2800 50  0001 L CNN
+F 4 "IC" H 2650 2900 50  0001 L CNN "category"
+F 5 "Integrated Circuits (ICs)" H 2650 3000 50  0001 L CNN "device class L1"
+F 6 "Memory" H 2650 3100 50  0001 L CNN "device class L2"
+F 7 "RAM" H 2650 3200 50  0001 L CNN "device class L3"
+F 8 "IC DRAM 4G PARALLEL 78FBGA" H 2650 3300 50  0001 L CNN "digikey description"
+F 9 "557-1764-ND" H 2650 3400 50  0001 L CNN "digikey part number"
+F 10 "933MHz" H 2650 3500 50  0001 L CNN "frequency"
+F 11 "1.2mm" H 2650 3600 50  0001 L CNN "height"
+F 12 "Parallel" H 2650 3700 50  0001 L CNN "interface"
+F 13 "BGA117N80P9X13_1060X810X120" H 2650 3800 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 2650 3900 50  0001 L CNN "lead free"
+F 15 "d7841f35dc82d472" H 2650 4000 50  0001 L CNN "library id"
+F 16 "Micron" H 2650 4100 50  0001 L CNN "manufacturer"
+F 17 "1.45V" H 2650 4200 50  0001 L CNN "max supply voltage"
+F 18 "512MB" H 2650 4300 50  0001 L CNN "memory size"
+F 19 "SDRAM,DDR3" H 2650 4400 50  0001 L CNN "memory type"
+F 20 "1.283V" H 2650 4500 50  0001 L CNN "min supply voltage"
+F 21 "340-265805-TRAY" H 2650 4600 50  0001 L CNN "mouser part number"
+F 22 "FBGA78" H 2650 4700 50  0001 L CNN "package"
+F 23 "yes" H 2650 4800 50  0001 L CNN "rohs"
+F 24 "0.135mm" H 2650 4900 50  0001 L CNN "standoff height"
+F 25 "+95°C" H 2650 5000 50  0001 L CNN "temperature range high"
+F 26 "0°C" H 2650 5100 50  0001 L CNN "temperature range low"
+	1    2650 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3750 2    50   Input ~ 0
+DDR_DQ0
+Text GLabel 7950 3850 2    50   Input ~ 0
+DDR_DQ1
+Text GLabel 7950 3950 2    50   Input ~ 0
+DDR_DQ2
+Text GLabel 7950 4050 2    50   Input ~ 0
+DDR_DQ3
+Text GLabel 7950 4150 2    50   Input ~ 0
+DDR_DQ4
+Text GLabel 7950 4250 2    50   Input ~ 0
+DDR_DQ5
+Text GLabel 7950 4350 2    50   Input ~ 0
+DDR_DQ6
+Text GLabel 7950 4450 2    50   Input ~ 0
+DDR_DQ7
+Text GLabel 9550 3550 2    50   Input ~ 0
+DDR_ODT
+Text GLabel 9500 2550 2    50   Input ~ 0
+DDR_NCS
+Text GLabel 6450 3750 0    50   Input ~ 0
+DDR_BA0
+Text GLabel 6450 3850 0    50   Input ~ 0
+DDR_BA1
+Text GLabel 6450 3950 0    50   Input ~ 0
+DDR_BA2
+Text GLabel 5900 4150 0    50   Input ~ 0
+DDR_NRAS
+$Comp
+L Micron-DA-0-0-0:MT41K512M8DA-107P U17
+U 2 1 61587B1F
+P 6650 2050
+F 0 "U17" H 7350 2315 50  0000 C CNN
+F 1 "MT41K512M8DA-107P" H 7350 2224 50  0000 C CNN
+F 2 "FuzzyDuck:Micron-DA-0-0-0" H 6650 2450 50  0001 L CNN
+F 3 "" H 6650 2550 50  0001 L CNN
+F 4 "IC" H 6650 2650 50  0001 L CNN "category"
+F 5 "Integrated Circuits (ICs)" H 6650 2750 50  0001 L CNN "device class L1"
+F 6 "Memory" H 6650 2850 50  0001 L CNN "device class L2"
+F 7 "RAM" H 6650 2950 50  0001 L CNN "device class L3"
+F 8 "IC DRAM 4G PARALLEL 78FBGA" H 6650 3050 50  0001 L CNN "digikey description"
+F 9 "557-1764-ND" H 6650 3150 50  0001 L CNN "digikey part number"
+F 10 "933MHz" H 6650 3250 50  0001 L CNN "frequency"
+F 11 "1.2mm" H 6650 3350 50  0001 L CNN "height"
+F 12 "Parallel" H 6650 3450 50  0001 L CNN "interface"
+F 13 "BGA117N80P9X13_1060X810X120" H 6650 3550 50  0001 L CNN "ipc land pattern name"
+F 14 "yes" H 6650 3650 50  0001 L CNN "lead free"
+F 15 "d7841f35dc82d472" H 6650 3750 50  0001 L CNN "library id"
+F 16 "Micron" H 6650 3850 50  0001 L CNN "manufacturer"
+F 17 "1.45V" H 6650 3950 50  0001 L CNN "max supply voltage"
+F 18 "512MB" H 6650 4050 50  0001 L CNN "memory size"
+F 19 "SDRAM,DDR3" H 6650 4150 50  0001 L CNN "memory type"
+F 20 "1.283V" H 6650 4250 50  0001 L CNN "min supply voltage"
+F 21 "340-265805-TRAY" H 6650 4350 50  0001 L CNN "mouser part number"
+F 22 "FBGA78" H 6650 4450 50  0001 L CNN "package"
+F 23 "yes" H 6650 4550 50  0001 L CNN "rohs"
+F 24 "0.135mm" H 6650 4650 50  0001 L CNN "standoff height"
+F 25 "+95°C" H 6650 4750 50  0001 L CNN "temperature range high"
+F 26 "0°C" H 6650 4850 50  0001 L CNN "temperature range low"
+	2    6650 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 4250 0    50   Input ~ 0
+DDR_NRST
+Text GLabel 5900 4450 0    50   Input ~ 0
+DDR_NWE
+Text GLabel 9500 2050 2    50   Input ~ 0
+DDR_NCAS
+Text GLabel 8400 2200 2    50   Input ~ 0
+DDR_CK_N
+Text GLabel 4700 2050 0    50   Input ~ 0
+DDR_A0
+Text GLabel 4700 2150 0    50   Input ~ 0
+DDR_A1
+Text GLabel 4700 2250 0    50   Input ~ 0
+DDR_A2
+Text GLabel 4700 2350 0    50   Input ~ 0
+DDR_A3
+Text GLabel 4700 2450 0    50   Input ~ 0
+DDR_A4
+Text GLabel 4700 2550 0    50   Input ~ 0
+DDR_A5
+Text GLabel 4700 2650 0    50   Input ~ 0
+DDR_A6
+Text GLabel 4700 2750 0    50   Input ~ 0
+DDR_A7
+Text GLabel 4700 2850 0    50   Input ~ 0
+DDR_A8
+Text GLabel 4700 2950 0    50   Input ~ 0
+DDR_A9
+Text GLabel 4700 3050 0    50   Input ~ 0
+DDR_A10
+Text GLabel 4700 3150 0    50   Input ~ 0
+DDR_A11
+Text GLabel 4700 3250 0    50   Input ~ 0
+DDR_A12
+Text GLabel 4700 3350 0    50   Input ~ 0
+DDR_A13
+Text GLabel 4700 3450 0    50   Input ~ 0
+DDR_A14
+Text GLabel 4700 3550 0    50   Input ~ 0
+DDR_A15
+$Comp
+L Device:R_Small R72
+U 1 1 646DD37E
+P 4950 1650
+F 0 "R72" H 5009 1696 50  0000 L CNN
+F 1 "40" H 5009 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4950 1650 50  0001 C CNN
+F 3 "~" H 4950 1650 50  0001 C CNN
+	1    4950 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3550 6450 3550
+Wire Wire Line
+	6750 3450 6350 3450
+Wire Wire Line
+	4700 3350 6250 3350
+Wire Wire Line
+	6750 3250 6150 3250
+Wire Wire Line
+	4700 3150 6050 3150
+Wire Wire Line
+	6750 3050 5950 3050
+Wire Wire Line
+	4700 2950 5850 2950
+Wire Wire Line
+	4700 2750 5650 2750
+Wire Wire Line
+	6750 2650 5550 2650
+Wire Wire Line
+	4700 2550 5450 2550
+Wire Wire Line
+	6750 2450 5350 2450
+Wire Wire Line
+	4700 2350 5250 2350
+Wire Wire Line
+	6750 2250 5150 2250
+Wire Wire Line
+	4700 2150 5050 2150
+Wire Wire Line
+	6750 2050 4950 2050
+Wire Wire Line
+	4950 1750 4950 2050
+Connection ~ 4950 2050
+Wire Wire Line
+	4950 2050 4700 2050
+Wire Wire Line
+	5050 1750 5050 2150
+Connection ~ 5050 2150
+Wire Wire Line
+	5050 2150 6750 2150
+Wire Wire Line
+	5150 1750 5150 2250
+Connection ~ 5150 2250
+Wire Wire Line
+	5150 2250 4700 2250
+Wire Wire Line
+	5250 1750 5250 2350
+Connection ~ 5250 2350
+Wire Wire Line
+	5250 2350 6750 2350
+Wire Wire Line
+	5350 1750 5350 2450
+Connection ~ 5350 2450
+Wire Wire Line
+	5350 2450 4700 2450
+Wire Wire Line
+	5450 1750 5450 2550
+Connection ~ 5450 2550
+Wire Wire Line
+	5450 2550 6750 2550
+Wire Wire Line
+	5550 1750 5550 2650
+Connection ~ 5550 2650
+Wire Wire Line
+	5550 2650 4700 2650
+Wire Wire Line
+	5650 1750 5650 2750
+Connection ~ 5650 2750
+Wire Wire Line
+	5650 2750 6750 2750
+Wire Wire Line
+	5750 1750 5750 2850
+Connection ~ 5750 2850
+Wire Wire Line
+	5750 2850 4700 2850
+Wire Wire Line
+	5750 2850 6750 2850
+Wire Wire Line
+	5850 1750 5850 2950
+Connection ~ 5850 2950
+Wire Wire Line
+	5850 2950 6750 2950
+Wire Wire Line
+	5950 1750 5950 3050
+Connection ~ 5950 3050
+Wire Wire Line
+	5950 3050 4700 3050
+Wire Wire Line
+	6050 1750 6050 3150
+Connection ~ 6050 3150
+Wire Wire Line
+	6050 3150 6750 3150
+Wire Wire Line
+	6150 1750 6150 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	6150 3250 4700 3250
+Wire Wire Line
+	6250 1750 6250 3350
+Connection ~ 6250 3350
+Wire Wire Line
+	6250 3350 6750 3350
+Wire Wire Line
+	6350 1750 6350 3450
+Connection ~ 6350 3450
+Wire Wire Line
+	6350 3450 4700 3450
+Wire Wire Line
+	6450 1750 6450 3550
+Connection ~ 6450 3550
+Wire Wire Line
+	6450 3550 6750 3550
+Connection ~ 4950 1550
+Wire Wire Line
+	2750 3500 2750 3400
+Connection ~ 2750 2300
+Wire Wire Line
+	2750 2300 2750 1900
+Connection ~ 2750 2400
+Wire Wire Line
+	2750 2400 2750 2300
+Connection ~ 2750 2500
+Wire Wire Line
+	2750 2500 2750 2400
+Connection ~ 2750 2600
+Wire Wire Line
+	2750 2600 2750 2500
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 2700 2750 2600
+Connection ~ 2750 2800
+Wire Wire Line
+	2750 2800 2750 2700
+Connection ~ 2750 2900
+Wire Wire Line
+	2750 2900 2750 2800
+Connection ~ 2750 3000
+Wire Wire Line
+	2750 3000 2750 2900
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3100 2750 3000
+Connection ~ 2750 3200
+Wire Wire Line
+	2750 3200 2750 3100
+Connection ~ 2750 3300
+Wire Wire Line
+	2750 3300 2750 3200
+Connection ~ 2750 3400
+Wire Wire Line
+	2750 3400 2750 3300
+Wire Wire Line
+	4950 1550 5050 1550
+$Comp
+L Device:R_Small R73
+U 1 1 64709588
+P 5050 1650
+F 0 "R73" H 5109 1696 50  0000 L CNN
+F 1 "40" H 5109 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5050 1650 50  0001 C CNN
+F 3 "~" H 5050 1650 50  0001 C CNN
+	1    5050 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 1550
+Wire Wire Line
+	5050 1550 5150 1550
+$Comp
+L Device:R_Small R74
+U 1 1 64709847
+P 5150 1650
+F 0 "R74" H 5209 1696 50  0000 L CNN
+F 1 "40" H 5209 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 1650 50  0001 C CNN
+F 3 "~" H 5150 1650 50  0001 C CNN
+	1    5150 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 1550
+Wire Wire Line
+	5150 1550 5250 1550
+$Comp
+L Device:R_Small R75
+U 1 1 64709C1C
+P 5250 1650
+F 0 "R75" H 5309 1696 50  0000 L CNN
+F 1 "40" H 5309 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5250 1650 50  0001 C CNN
+F 3 "~" H 5250 1650 50  0001 C CNN
+	1    5250 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 1550
+Wire Wire Line
+	5250 1550 5350 1550
+$Comp
+L Device:R_Small R76
+U 1 1 6470B06A
+P 5350 1650
+F 0 "R76" H 5409 1696 50  0000 L CNN
+F 1 "40" H 5409 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 1650 50  0001 C CNN
+F 3 "~" H 5350 1650 50  0001 C CNN
+	1    5350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R77
+U 1 1 6470B074
+P 5450 1650
+F 0 "R77" H 5509 1696 50  0000 L CNN
+F 1 "40" H 5509 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5450 1650 50  0001 C CNN
+F 3 "~" H 5450 1650 50  0001 C CNN
+	1    5450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R78
+U 1 1 6470B07E
+P 5550 1650
+F 0 "R78" H 5609 1696 50  0000 L CNN
+F 1 "40" H 5609 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 1650 50  0001 C CNN
+F 3 "~" H 5550 1650 50  0001 C CNN
+	1    5550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R79
+U 1 1 6470B088
+P 5650 1650
+F 0 "R79" H 5709 1696 50  0000 L CNN
+F 1 "40" H 5709 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 1650 50  0001 C CNN
+F 3 "~" H 5650 1650 50  0001 C CNN
+	1    5650 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 1550
+Wire Wire Line
+	5350 1550 5450 1550
+Connection ~ 5450 1550
+Wire Wire Line
+	5450 1550 5550 1550
+Connection ~ 5550 1550
+Wire Wire Line
+	5550 1550 5650 1550
+Connection ~ 5650 1550
+Wire Wire Line
+	5650 1550 5750 1550
+$Comp
+L Device:R_Small R80
+U 1 1 647104B2
+P 5750 1650
+F 0 "R80" H 5809 1696 50  0000 L CNN
+F 1 "40" H 5809 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5750 1650 50  0001 C CNN
+F 3 "~" H 5750 1650 50  0001 C CNN
+	1    5750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R81
+U 1 1 647104BC
+P 5850 1650
+F 0 "R81" H 5909 1696 50  0000 L CNN
+F 1 "40" H 5909 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 1650 50  0001 C CNN
+F 3 "~" H 5850 1650 50  0001 C CNN
+	1    5850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R82
+U 1 1 647104C6
+P 5950 1650
+F 0 "R82" H 6009 1696 50  0000 L CNN
+F 1 "40" H 6009 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 1650 50  0001 C CNN
+F 3 "~" H 5950 1650 50  0001 C CNN
+	1    5950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R83
+U 1 1 647104D0
+P 6050 1650
+F 0 "R83" H 6109 1696 50  0000 L CNN
+F 1 "40" H 6109 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6050 1650 50  0001 C CNN
+F 3 "~" H 6050 1650 50  0001 C CNN
+	1    6050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R84
+U 1 1 647104DA
+P 6150 1650
+F 0 "R84" H 6209 1696 50  0000 L CNN
+F 1 "40" H 6209 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 1650 50  0001 C CNN
+F 3 "~" H 6150 1650 50  0001 C CNN
+	1    6150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R85
+U 1 1 647104E4
+P 6250 1650
+F 0 "R85" H 6309 1696 50  0000 L CNN
+F 1 "40" H 6309 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6250 1650 50  0001 C CNN
+F 3 "~" H 6250 1650 50  0001 C CNN
+	1    6250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R86
+U 1 1 647104EE
+P 6350 1650
+F 0 "R86" H 6409 1696 50  0000 L CNN
+F 1 "40" H 6409 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 1650 50  0001 C CNN
+F 3 "~" H 6350 1650 50  0001 C CNN
+	1    6350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R87
+U 1 1 647104F8
+P 6450 1650
+F 0 "R87" H 6509 1696 50  0000 L CNN
+F 1 "40" H 6509 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6450 1650 50  0001 C CNN
+F 3 "~" H 6450 1650 50  0001 C CNN
+	1    6450 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 1550
+Wire Wire Line
+	5750 1550 5850 1550
+Connection ~ 5850 1550
+Wire Wire Line
+	5850 1550 5950 1550
+Connection ~ 5950 1550
+Wire Wire Line
+	5950 1550 6050 1550
+Connection ~ 6050 1550
+Wire Wire Line
+	6050 1550 6150 1550
+Connection ~ 6150 1550
+Wire Wire Line
+	6150 1550 6250 1550
+Connection ~ 6250 1550
+Wire Wire Line
+	6250 1550 6350 1550
+Connection ~ 6350 1550
+Wire Wire Line
+	6350 1550 6450 1550
+$Comp
+L Device:C C?
+U 1 1 6473A1B9
+P 4700 1200
+AR Path="/5EFB5614/6473A1B9" Ref="C?"  Part="1" 
+AR Path="/5F13835D/6473A1B9" Ref="C78"  Part="1" 
+F 0 "C78" H 4815 1246 50  0000 L CNN
+F 1 "10uF" H 4815 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 1050 50  0001 C CNN
+F 3 "~" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6473BD45
+P 5050 1200
+AR Path="/5EFB5614/6473BD45" Ref="C?"  Part="1" 
+AR Path="/5F13835D/6473BD45" Ref="C79"  Part="1" 
+F 0 "C79" H 5165 1246 50  0000 L CNN
+F 1 "100nF" H 5165 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 1050 50  0001 C CNN
+F 3 "~" H 5050 1200 50  0001 C CNN
+	1    5050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6474104F
+P 5300 1200
+AR Path="/5EFB5614/6474104F" Ref="C?"  Part="1" 
+AR Path="/5F13835D/6474104F" Ref="C80"  Part="1" 
+F 0 "C80" H 5415 1246 50  0000 L CNN
+F 1 "100nF" H 5415 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5338 1050 50  0001 C CNN
+F 3 "~" H 5300 1200 50  0001 C CNN
+	1    5300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64741541
+P 5500 1200
+AR Path="/5EFB5614/64741541" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64741541" Ref="C81"  Part="1" 
+F 0 "C81" H 5615 1246 50  0000 L CNN
+F 1 "100nF" H 5615 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 1050 50  0001 C CNN
+F 3 "~" H 5500 1200 50  0001 C CNN
+	1    5500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64741A6B
+P 5700 1200
+AR Path="/5EFB5614/64741A6B" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64741A6B" Ref="C82"  Part="1" 
+F 0 "C82" H 5815 1246 50  0000 L CNN
+F 1 "100nF" H 5815 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 1050 50  0001 C CNN
+F 3 "~" H 5700 1200 50  0001 C CNN
+	1    5700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64741ED7
+P 6100 1200
+AR Path="/5EFB5614/64741ED7" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64741ED7" Ref="C83"  Part="1" 
+F 0 "C83" H 6215 1246 50  0000 L CNN
+F 1 "10nF" H 6215 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 1050 50  0001 C CNN
+F 3 "~" H 6100 1200 50  0001 C CNN
+	1    6100 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1550 4550 1050
+Wire Wire Line
+	4550 1050 4700 1050
+Wire Wire Line
+	4550 1550 4650 1550
+Connection ~ 4700 1050
+Wire Wire Line
+	4700 1050 5050 1050
+Connection ~ 5050 1050
+Wire Wire Line
+	5050 1050 5300 1050
+Connection ~ 5300 1050
+Wire Wire Line
+	5300 1050 5500 1050
+Connection ~ 5500 1050
+Wire Wire Line
+	5500 1050 5700 1050
+Connection ~ 5700 1050
+Wire Wire Line
+	5700 1050 6100 1050
+Wire Wire Line
+	4700 1350 5050 1350
+Connection ~ 5050 1350
+Wire Wire Line
+	5050 1350 5300 1350
+Connection ~ 5300 1350
+Wire Wire Line
+	5300 1350 5500 1350
+Connection ~ 5500 1350
+Wire Wire Line
+	5500 1350 5700 1350
+Connection ~ 5700 1350
+Wire Wire Line
+	5700 1350 6100 1350
+Wire Wire Line
+	3850 2700 3850 2800
+Wire Wire Line
+	3850 4300 4050 4300
+Connection ~ 3850 4300
+Connection ~ 3850 2800
+Wire Wire Line
+	3850 2800 3850 2900
+Connection ~ 3850 2900
+Wire Wire Line
+	3850 2900 3850 3000
+Connection ~ 3850 3000
+Wire Wire Line
+	3850 3000 3850 3100
+Connection ~ 3850 3100
+Wire Wire Line
+	3850 3100 3850 3200
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3200 3850 3300
+Connection ~ 3850 3300
+Wire Wire Line
+	3850 3300 3850 3400
+Connection ~ 3850 3400
+Wire Wire Line
+	3850 3400 3850 3500
+Connection ~ 3850 3500
+Wire Wire Line
+	3850 3500 3850 3600
+Connection ~ 3850 3600
+Wire Wire Line
+	3850 3600 3850 3700
+Connection ~ 3850 3700
+Wire Wire Line
+	3850 3700 3850 3800
+Connection ~ 3850 3800
+Wire Wire Line
+	3850 3800 3850 3900
+Connection ~ 3850 3900
+Wire Wire Line
+	3850 3900 3850 4000
+Connection ~ 3850 4000
+Wire Wire Line
+	3850 4000 3850 4100
+Connection ~ 3850 4100
+Wire Wire Line
+	3850 4100 3850 4200
+Connection ~ 3850 4200
+Wire Wire Line
+	3850 4200 3850 4300
+Text GLabel 4550 1050 0    50   Input ~ 0
+VCCDDR_1.35V_VREF
+Text GLabel 6100 1350 2    50   Input ~ 0
+GND
+Text GLabel 4050 4300 2    50   Input ~ 0
+GND
+Text GLabel 2750 1900 0    50   Input ~ 0
+VCCDDR_1.35V
+$Comp
+L Device:C C?
+U 1 1 64784C51
+P 2600 2150
+AR Path="/5EFB5614/64784C51" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64784C51" Ref="C74"  Part="1" 
+F 0 "C74" H 2715 2196 50  0000 L CNN
+F 1 "10uF" H 2715 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2638 2000 50  0001 C CNN
+F 3 "~" H 2600 2150 50  0001 C CNN
+	1    2600 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64784C5B
+P 2400 2150
+AR Path="/5EFB5614/64784C5B" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64784C5B" Ref="C73"  Part="1" 
+F 0 "C73" H 2515 2196 50  0000 L CNN
+F 1 "100nF" H 2515 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 2000 50  0001 C CNN
+F 3 "~" H 2400 2150 50  0001 C CNN
+	1    2400 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64784C65
+P 2250 2150
+AR Path="/5EFB5614/64784C65" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64784C65" Ref="C72"  Part="1" 
+F 0 "C72" H 2365 2196 50  0000 L CNN
+F 1 "100nF" H 2365 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 2000 50  0001 C CNN
+F 3 "~" H 2250 2150 50  0001 C CNN
+	1    2250 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64784C6F
+P 2050 2150
+AR Path="/5EFB5614/64784C6F" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64784C6F" Ref="C71"  Part="1" 
+F 0 "C71" H 2165 2196 50  0000 L CNN
+F 1 "100nF" H 2165 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 2000 50  0001 C CNN
+F 3 "~" H 2050 2150 50  0001 C CNN
+	1    2050 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64784C79
+P 1850 2150
+AR Path="/5EFB5614/64784C79" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64784C79" Ref="C70"  Part="1" 
+F 0 "C70" H 1965 2196 50  0000 L CNN
+F 1 "100nF" H 1965 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 2000 50  0001 C CNN
+F 3 "~" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64784C83
+P 1650 2150
+AR Path="/5EFB5614/64784C83" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64784C83" Ref="C69"  Part="1" 
+F 0 "C69" H 1765 2196 50  0000 L CNN
+F 1 "10nF" H 1765 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 2000 50  0001 C CNN
+F 3 "~" H 1650 2150 50  0001 C CNN
+	1    1650 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2300 2600 2300
+Connection ~ 2600 2300
+Wire Wire Line
+	2600 2300 2400 2300
+Connection ~ 2250 2300
+Wire Wire Line
+	2250 2300 2050 2300
+Wire Wire Line
+	2600 2000 2400 2000
+Connection ~ 2250 2000
+Wire Wire Line
+	2250 2000 2050 2000
+Text GLabel 1950 2000 1    50   Input ~ 0
+GND
+Text GLabel 8400 2400 2    50   Input ~ 0
+DDR_CK_P
+$Comp
+L Device:R_Small R88
+U 1 1 64A2478F
+P 8200 2300
+F 0 "R88" H 8259 2346 50  0000 L CNN
+F 1 "68" H 8259 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8200 2300 50  0001 C CNN
+F 3 "~" H 8200 2300 50  0001 C CNN
+	1    8200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2350 8150 2350
+Wire Wire Line
+	8150 2350 8150 2400
+Wire Wire Line
+	8150 2400 8200 2400
+Connection ~ 8200 2400
+Wire Wire Line
+	8200 2400 8400 2400
+Wire Wire Line
+	7950 2250 8150 2250
+Wire Wire Line
+	8150 2250 8150 2200
+Wire Wire Line
+	8150 2200 8200 2200
+Connection ~ 8200 2200
+Wire Wire Line
+	8200 2200 8400 2200
+$Comp
+L Device:R_Small R71
+U 1 1 64A3C744
+P 4850 1650
+F 0 "R71" H 4909 1696 50  0000 L CNN
+F 1 "40" H 4909 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4850 1650 50  0001 C CNN
+F 3 "~" H 4850 1650 50  0001 C CNN
+	1    4850 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 1550
+Wire Wire Line
+	4850 1550 4950 1550
+Wire Wire Line
+	5900 4450 5950 4450
+Wire Wire Line
+	6750 4150 5950 4150
+$Comp
+L Device:R_Small R70
+U 1 1 64A5C38C
+P 4750 1650
+F 0 "R70" H 4809 1696 50  0000 L CNN
+F 1 "34" H 4809 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 1650 50  0001 C CNN
+F 3 "~" H 4750 1650 50  0001 C CNN
+	1    4750 1650
+	1    0    0    1   
+$EndComp
+Connection ~ 4750 1550
+Wire Wire Line
+	4750 1550 4850 1550
+Wire Wire Line
+	4850 1750 4850 4050
+Wire Wire Line
+	4850 4050 5950 4050
+Wire Wire Line
+	5950 4050 5950 4150
+Connection ~ 5950 4150
+Wire Wire Line
+	5950 4150 5900 4150
+Wire Wire Line
+	5950 4350 5950 4450
+Connection ~ 5950 4450
+Wire Wire Line
+	5950 4450 6750 4450
+$Comp
+L Device:R_Small R90
+U 1 1 64A86AA6
+P 8950 1650
+F 0 "R90" H 9009 1696 50  0000 L CNN
+F 1 "40" H 9009 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8950 1650 50  0001 C CNN
+F 3 "~" H 8950 1650 50  0001 C CNN
+	1    8950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R91
+U 1 1 64A87513
+P 9050 1650
+F 0 "R91" H 9109 1696 50  0000 L CNN
+F 1 "40" H 9109 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9050 1650 50  0001 C CNN
+F 3 "~" H 9050 1650 50  0001 C CNN
+	1    9050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1550 6550 1550
+Connection ~ 6450 1550
+Connection ~ 8950 1550
+Wire Wire Line
+	8950 1550 9050 1550
+$Comp
+L Device:C_Small C?
+U 1 1 64A9E9C9
+P 3600 1750
+AR Path="/5EFB5614/64A9E9C9" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64A9E9C9" Ref="C75"  Part="1" 
+F 0 "C75" H 3715 1796 50  0000 L CNN
+F 1 "100nF" H 3715 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 1600 50  0001 C CNN
+F 3 "~" H 3600 1750 50  0001 C CNN
+	1    3600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64A9FADB
+P 3750 1750
+AR Path="/5EFB5614/64A9FADB" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64A9FADB" Ref="C76"  Part="1" 
+F 0 "C76" H 3865 1796 50  0000 L CNN
+F 1 "10nF" H 3865 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 1600 50  0001 C CNN
+F 3 "~" H 3750 1750 50  0001 C CNN
+	1    3750 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 1850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3850 2400 3850 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	2400 2300 2250 2300
+Connection ~ 2400 2000
+Wire Wire Line
+	2400 2000 2250 2000
+Connection ~ 2050 2300
+Connection ~ 2050 2000
+Connection ~ 1850 2300
+Connection ~ 1850 2000
+Wire Wire Line
+	1850 2000 2050 2000
+Wire Wire Line
+	1850 2300 2050 2300
+Wire Wire Line
+	1650 2300 1850 2300
+Wire Wire Line
+	1650 2000 1850 2000
+Text GLabel 3500 1650 0    50   Input ~ 0
+VCCDDR_1.35V_VREF
+$Comp
+L Device:C_Small C?
+U 1 1 64AE2197
+P 3850 1550
+AR Path="/5EFB5614/64AE2197" Ref="C?"  Part="1" 
+AR Path="/5F13835D/64AE2197" Ref="C77"  Part="1" 
+F 0 "C77" H 3965 1596 50  0000 L CNN
+F 1 "10nF" H 3965 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3888 1400 50  0001 C CNN
+F 3 "~" H 3850 1550 50  0001 C CNN
+	1    3850 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 1450 0    50   Input ~ 0
+VCCDDR_1.35V
+Wire Wire Line
+	3500 1850 3600 1850
+Connection ~ 3600 1850
+Wire Wire Line
+	3600 1850 3750 1850
+Wire Wire Line
+	3500 1650 3600 1650
+Connection ~ 3600 1650
+Wire Wire Line
+	3600 1650 3750 1650
+Connection ~ 3750 1650
+Wire Wire Line
+	3750 1650 3850 1650
+Wire Wire Line
+	3800 1450 3850 1450
+Wire Wire Line
+	3850 2300 3850 1650
+Connection ~ 3850 2300
+Connection ~ 3850 1650
+$Comp
+L Device:R_Small R69
+U 1 1 64AFFF9C
+P 2650 4300
+F 0 "R69" V 2454 4300 50  0000 C CNN
+F 1 "240" V 2545 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 4300 50  0001 C CNN
+F 3 "~" H 2650 4300 50  0001 C CNN
+	1    2650 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 4300 0    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small R89
+U 1 1 64B11264
+P 8850 1650
+F 0 "R89" H 8909 1696 50  0000 L CNN
+F 1 "40" H 8909 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8850 1650 50  0001 C CNN
+F 3 "~" H 8850 1650 50  0001 C CNN
+	1    8850 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 1550
+Wire Wire Line
+	8850 1550 8950 1550
+Text GLabel 9500 2750 2    50   Input ~ 0
+DDR_CKE
+$Comp
+L Device:R_Small R92
+U 1 1 64B21FF6
+P 9150 1650
+F 0 "R92" H 9209 1696 50  0000 L CNN
+F 1 "40" H 9209 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9150 1650 50  0001 C CNN
+F 3 "~" H 9150 1650 50  0001 C CNN
+	1    9150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1550 9150 1550
+Connection ~ 9050 1550
+Wire Wire Line
+	7950 3550 8850 3550
+Wire Wire Line
+	7950 2550 9050 2550
+Wire Wire Line
+	7950 2050 9150 2050
+Wire Wire Line
+	7950 2750 8950 2750
+Wire Wire Line
+	9150 1750 9150 2050
+Connection ~ 9150 2050
+Wire Wire Line
+	9150 2050 9500 2050
+Wire Wire Line
+	9050 1750 9050 2550
+Connection ~ 9050 2550
+Wire Wire Line
+	9050 2550 9500 2550
+Wire Wire Line
+	8950 1750 8950 2750
+Connection ~ 8950 2750
+Wire Wire Line
+	8950 2750 9500 2750
+Wire Wire Line
+	8850 1750 8850 3550
+Connection ~ 8850 3550
+Wire Wire Line
+	8850 3550 9550 3550
+Text GLabel 7950 3050 2    50   Input ~ 0
+DDR_DQS_P
+Text GLabel 7950 2950 2    50   Input ~ 0
+DDR_DQS_N
+Text GLabel 7950 3250 2    50   Input ~ 0
+DDR_TDQS_N
+Text GLabel 7950 3350 2    50   Input ~ 0
+DDR_TDQS_P
+NoConn ~ 2750 3700
+NoConn ~ 2750 3800
+NoConn ~ 2750 3900
+NoConn ~ 2750 4000
+NoConn ~ 2750 4100
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 64866E88
+P 7200 1000
+AR Path="/5EFB571D/64866E88" Ref="RN?"  Part="1" 
+AR Path="/5F13835D/64866E88" Ref="RN17"  Part="1" 
+F 0 "RN17" V 6783 1000 50  0000 C CNN
+F 1 "1k x4" V 6874 1000 50  0000 C CNN
+F 2 "" V 7475 1000 50  0001 C CNN
+F 3 "~" H 7200 1000 50  0001 C CNN
+	1    7200 1000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R94
+U 1 1 64C786BC
+P 6550 1650
+F 0 "R94" H 6609 1696 50  0000 L CNN
+F 1 "40" H 6609 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 1650 50  0001 C CNN
+F 3 "~" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 1550
+Wire Wire Line
+	6550 1550 6650 1550
+$Comp
+L Device:R_Small R95
+U 1 1 64C78D46
+P 6650 1650
+F 0 "R95" H 6709 1696 50  0000 L CNN
+F 1 "40" H 6709 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6650 1650 50  0001 C CNN
+F 3 "~" H 6650 1650 50  0001 C CNN
+	1    6650 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 1550
+Wire Wire Line
+	6650 1550 6750 1550
+$Comp
+L Device:R_Small R96
+U 1 1 64C791DC
+P 6750 1650
+F 0 "R96" H 6809 1696 50  0000 L CNN
+F 1 "40" H 6809 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 1650 50  0001 C CNN
+F 3 "~" H 6750 1650 50  0001 C CNN
+	1    6750 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 1550
+Wire Wire Line
+	6750 1550 8850 1550
+Wire Wire Line
+	6450 3750 6550 3750
+Wire Wire Line
+	6450 3850 6650 3850
+Wire Wire Line
+	6450 3950 6700 3950
+Wire Wire Line
+	6550 3750 6550 1750
+Connection ~ 6550 3750
+Wire Wire Line
+	6550 3750 6750 3750
+Wire Wire Line
+	6650 1750 6650 3850
+Connection ~ 6650 3850
+Wire Wire Line
+	6650 3850 6750 3850
+Wire Wire Line
+	6700 3950 6700 1750
+Wire Wire Line
+	6700 1750 6750 1750
+Connection ~ 6700 3950
+Wire Wire Line
+	6700 3950 6750 3950
+Wire Wire Line
+	5350 4250 5400 4250
+$Comp
+L Device:R_Small R93
+U 1 1 64CCE30C
+P 4650 1650
+F 0 "R93" H 4709 1696 50  0000 L CNN
+F 1 "34" H 4709 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 1650 50  0001 C CNN
+F 3 "~" H 4650 1650 50  0001 C CNN
+	1    4650 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 1550
+Wire Wire Line
+	4650 1550 4750 1550
+Wire Wire Line
+	4750 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 4150
+Wire Wire Line
+	4800 4150 5400 4150
+Wire Wire Line
+	5400 4150 5400 4250
+Connection ~ 5400 4250
+Wire Wire Line
+	5400 4250 6750 4250
+Wire Wire Line
+	4650 1750 4650 1800
+Wire Wire Line
+	4650 1800 4750 1800
+Wire Wire Line
+	4750 1800 4750 4350
+Wire Wire Line
+	4750 4350 5950 4350
+$EndSCHEMATC

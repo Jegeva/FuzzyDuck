@@ -1,0 +1,573 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Sep  9 00:53:03 2020
+# Process ID: 3832333
+# Current directory: /home/jg/work/FuzzyDuck/Fuzzyduck_vivado/Tet_MIG/Tet_MIG.runs/synth_2
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/jg/work/FuzzyDuck/Fuzzyduck_vivado/Tet_MIG/Tet_MIG.runs/synth_2/top.vds
+# Journal file: /home/jg/work/FuzzyDuck/Fuzzyduck_vivado/Tet_MIG/Tet_MIG.runs/synth_2/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3832397 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1819.848 ; gain = 201.719 ; free physical = 9922 ; free virtual = 126223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/Tet_MIG/Tet_MIG.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (1#1) [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/Tet_MIG/Tet_MIG.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3330] design top has an empty top module
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1881.598 ; gain = 263.469 ; free physical = 9947 ; free virtual = 126250
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1881.598 ; gain = 263.469 ; free physical = 9938 ; free virtual = 126241
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1881.598 ; gain = 263.469 ; free physical = 9938 ; free virtual = 126241
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1881.598 ; gain = 0.000 ; free physical = 9931 ; free virtual = 126235
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtprxp0_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:1]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtprxp1_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:2]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtprxp2_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:3]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtprxp3_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:4]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtptxp0_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:5]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtptxp1_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:6]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtptxp2_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:7]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtptxp3_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:8]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtrefclk0p_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:9]
+CRITICAL WARNING: [Coretcl 2-95] Port 'mgtrefclk1p_216' not found. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l1p_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l1n_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l2p_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l2n_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l3p_t0_dqs_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l3n_t0_dqs_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l4p_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l4n_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l5p_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l5n_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l6p_t0_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l6n_t0_vref_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l7p_t1_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l7n_t1_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l8p_t1_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l8n_t1_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l9p_t1_dqs_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l9n_t1_dqs_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l10p_t1_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l10n_t1_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l11p_t1_srcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l11n_t1_srcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l12p_t1_mrcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l12n_t1_mrcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l13p_t2_mrcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l13n_t2_mrcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l14p_t2_srcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l14n_t2_srcc_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l15p_t2_dqs_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l15n_t2_dqs_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l16p_t2_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l16n_t2_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l17p_t2_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l17n_t2_13'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_0_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l1p_t0_d00_mosi_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l1n_t0_d01_din_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l2p_t0_d02_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l2n_t0_d03_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l3p_t0_dqs_pudc_b_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l3n_t0_dqs_emcclk_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l4p_t0_d04_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l4n_t0_d05_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l5p_t0_d06_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l5n_t0_d07_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l6p_t0_fcs_b_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l6n_t0_d08_vref_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l7p_t1_d09_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l7n_t1_d10_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l8p_t1_d11_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l8n_t1_d12_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l9p_t1_dqs_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l9n_t1_dqs_d13_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l10p_t1_d14_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l10n_t1_d15_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l11p_t1_srcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l11n_t1_srcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l12n_t1_mrcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l13p_t2_mrcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l13n_t2_mrcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l14p_t2_srcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l14n_t2_srcc_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l15p_t2_dqs_rdwr_b_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l15n_t2_dqs_dout_cso_b_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l16p_t2_csi_b_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l16n_t2_a15_d31_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l17p_t2_a14_d30_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l17n_t2_a13_d29_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l18p_t2_a12_d28_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l18n_t2_a11_d27_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l19p_t3_a10_d26_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l19n_t3_a09_d25_vref_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l20p_t3_a08_d24_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l20n_t3_a07_d23_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l21p_t3_dqs_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l21n_t3_dqs_a06_d22_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l22p_t3_a05_d21_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l22n_t3_a04_d20_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l23p_t3_a03_d19_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l23n_t3_a02_d18_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l24p_t3_a01_d17_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l24n_t3_a00_d16_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_25_14'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_0_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l1p_t0_ad0p_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l1n_t0_ad0n_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l2p_t0_ad8p_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l2n_t0_ad8n_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l3p_t0_dqs_ad1p_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l3n_t0_dqs_ad1n_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l4p_t0_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l4n_t0_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l5p_t0_ad9p_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l5n_t0_ad9n_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l6p_t0_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l6n_t0_vref_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l7p_t1_ad2p_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'io_l7n_t1_ad2n_15'. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:110]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/FD/io_1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1958.504 ; gain = 0.000 ; free physical = 9824 ; free virtual = 126141
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1958.504 ; gain = 0.000 ; free physical = 9825 ; free virtual = 126143
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9898 ; free virtual = 126216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9898 ; free virtual = 126217
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9901 ; free virtual = 126219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9900 ; free virtual = 126220
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3330] design top has an empty top module
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9894 ; free virtual = 126216
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9637 ; free virtual = 126071
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9637 ; free virtual = 126071
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1958.504 ; gain = 340.375 ; free physical = 9636 ; free virtual = 126070
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126057
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126057
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126057
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |top  |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.379 ; gain = 353.250 ; free physical = 9674 ; free virtual = 126059
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1971.379 ; gain = 276.344 ; free physical = 9726 ; free virtual = 126111
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1971.387 ; gain = 353.250 ; free physical = 9726 ; free virtual = 126111
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1971.387 ; gain = 0.000 ; free physical = 9720 ; free virtual = 126104
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1982.285 ; gain = 0.000 ; free physical = 9743 ; free virtual = 126128
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 103 Warnings, 110 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 1982.285 ; gain = 545.383 ; free physical = 9868 ; free virtual = 126252
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1982.285 ; gain = 0.000 ; free physical = 9868 ; free virtual = 126252
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/jg/work/FuzzyDuck/Fuzzyduck_vivado/Tet_MIG/Tet_MIG.runs/synth_2/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  9 00:53:32 2020...

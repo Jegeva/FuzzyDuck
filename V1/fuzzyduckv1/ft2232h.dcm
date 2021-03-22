@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT2232HQ
+D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
+K USB Double UART FIFO
+F http://www.ftdichip.com/Products/ICs/FT2232H.html
+$ENDCMP
+#
+#End Doc Library

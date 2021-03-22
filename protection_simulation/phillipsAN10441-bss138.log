@@ -1,0 +1,37 @@
+Circuit: * C:\Users\vallejg\Documents\PWC&Me\FuzzyDuck\protection_simulation\phillipsAN10441-bss138.asc
+
+Limiting rise time of source v3 to 3.33333e-009
+Limiting fall time of source v3 to 3.33333e-009
+Limiting rise time of source v4 to 3.33333e-009
+Limiting fall time of source v4 to 3.33333e-009
+Warning: Pscbe2 = 0 is not positive.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pscbe2 = 0 is not positive.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+.step freq=1.5e+007
+.step freq=1.6e+007
+.step freq=1.7e+007
+.step freq=1.8e+007
+.step freq=1.9e+007
+.step freq=2e+007
+
+Date: Thu Oct 11 13:09:17 2018
+Total elapsed time: 4.497 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 155391
+traniter = 155357
+tranpoints = 71288
+accept = 52323
+rejected = 18965
+matrix size = 35
+fillins = 14
+solver = Normal
+Matrix Compiler1: 2.92 KB object code size  0.4/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.4/0.3
+

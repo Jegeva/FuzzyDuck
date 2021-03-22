@@ -1,0 +1,29 @@
+#! /usr/bin/perl
+
+use File::Slurp;
+
+my @lines = read_file( '../../R-U-DIMM-PINOUT.csv' ) ;
+my @liblines = read_file('../DIMM-240-DDR3.lib.old' );
+
+my %hpins = {};
+
+foreach(@lines){
+    chomp;
+    @fields = split(/;/,$_);
+    $hpins{$fields[0]} = {};
+    $hpins{$fields[0]}{"diff"} = $fields[7];
+    $hpins{$fields[0]}{"ttxt"} = $fields[8];
+#    print "$fields[0] $fields[3] $fields[4] \n";
+}
+
+foreach(@liblines){
+    if(/^X/){
+        @fields = split(/ /,$_);
+        if($hpins{$fields[2]}{"diff"}){
+            $fields[1] = $hpins{$fields[2]}{"ttxt"}
+        }
+        print join(" ",@fields)
+    }else{
+        print;
+    }
+}

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name DIMM-240-DDR3)(type Legacy)(uri ${KIPRJMOD}/DIMM-240-DDR3.lib)(options "")(descr ""))
+  (lib (name Fuzzy1)(type Legacy)(uri ${KIPRJMOD}/Fuzzy1.lib)(options "")(descr ""))
+  (lib (name ft2232hq)(type Legacy)(uri ${KIPRJMOD}/ft2232hq.lib)(options "")(descr ""))
+)
